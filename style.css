@@ -1,0 +1,107 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.logo{
+    padding-left: 30px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: red;
+}
+.button{
+    width:200px;
+    height: 30px;
+    background-color: black;
+    border-radius: 20px;
+}
+.button a{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: start;
+}
+
+.button a i{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.card{
+    width: 380px;
+    height: 550px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.card img{
+    border-radius: 10px;
+    width: 355px;
+    height: 265px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.luxury{
+    background-color: rgb(255, 211, 193);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.sale{
+    color: orangered;
+    font-size: 20px;
+
+}
+
+.name{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.content{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.content span{
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-right: 20px;
+}
+.visit button{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+}
